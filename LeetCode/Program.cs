@@ -10,10 +10,12 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            var problem = new Problems.Problem1_TwoSum.Problem1();
+            var problem = new Problems.Problem7_ReverseInteger.Problem7();
 
-            var solution = problem.TwoSum(new int[] { 2, 7, 11, 15 }, 9);
-            Console.WriteLine($"[{solution[0]}, {solution[1]}]");
+            var solution = problem.Reverse(int.MinValue);
+            Console.WriteLine(solution);
+
+            Console.ReadKey();
         }
     }
 }
