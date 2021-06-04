@@ -9,8 +9,11 @@ namespace LeetCode.Problems.Problem7_ReverseInteger
             return Solution1(x);
         }
 
-        // Accepted by LeetCode
-        // Solves problem 7 in 40 ms, faster then 81.73% of C# submissions
+        /**
+         * Accepted by LeetCode.
+         * Solves problem 1 faster then 81.87% of C# submissions.
+         * Memory usage better than 82.83% of C# subissions.
+         **/
         private int Solution1(int x)
         {
             int result = 0;

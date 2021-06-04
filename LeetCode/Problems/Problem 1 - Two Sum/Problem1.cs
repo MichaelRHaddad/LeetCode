@@ -10,8 +10,11 @@ namespace LeetCode.Problems.Problem1_TwoSum
             return Solution1(nums, target);
         }
 
-        // Accepted by LeetCode
-        // Solves problem 1 in 232 ms, faster then 93.36% of C# submissions
+        /**
+         * Accepted by LeetCode.
+         * Solves problem 1 faster then 93.36% of C# submissions.
+         * Memory usage better than 16.21% of C# subissions.
+         **/
         private int[] Solution1(int[] nums, int target)
         {
             var numberToIndexMap = new Dictionary<int, ushort>();
