@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace LeetCode.Problems.Problem7_ReverseInteger
+﻿namespace LeetCode.Problems.Problem7_ReverseInteger
 {
     class Problem7
     {
