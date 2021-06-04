@@ -2,7 +2,7 @@
 {
     partial class Problem9
     {
-        public int[] bool IsPalindrome(int x)
+        public bool IsPalindrome(int x)
         {
             return Solution1(x);
         }
