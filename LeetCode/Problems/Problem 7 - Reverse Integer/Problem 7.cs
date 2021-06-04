@@ -11,7 +11,7 @@ namespace LeetCode.Problems.Problem7_ReverseInteger
 
         /**
          * Accepted by LeetCode.
-         * Solves problem 1 faster then 81.87% of C# submissions.
+         * Solves problem 7 faster then 81.87% of C# submissions.
          * Memory usage better than 82.83% of C# subissions.
          **/
         private int Solution1(int x)
