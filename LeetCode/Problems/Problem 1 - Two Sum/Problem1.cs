@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace LeetCode.Problems.Problem1_TwoSum
+﻿namespace LeetCode.Problems.Problem1_TwoSum
 {
     partial class Problem1
     {
