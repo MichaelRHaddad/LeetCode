@@ -4,7 +4,7 @@
     {
         public bool IsPalindrome(int x)
         {
-            return Solution1(x);
+            return Solution2(x);
         }
     }
 }
