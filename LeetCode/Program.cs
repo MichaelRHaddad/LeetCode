@@ -8,8 +8,12 @@ namespace LeetCode
         {
             var problem = new Problems.Problem9_PalindromeNumber.Problem9();
 
-            var solution = problem.IsPalindrome(-101);
-            Console.WriteLine(solution);
+            Console.WriteLine(problem.IsPalindrome(121));
+            Console.WriteLine(problem.IsPalindrome(-121));
+            Console.WriteLine(problem.IsPalindrome(10));
+            Console.WriteLine(problem.IsPalindrome(-101));
+            Console.WriteLine(problem.IsPalindrome(6547456));
+            Console.WriteLine(problem.IsPalindrome(654456));
 
             Console.ReadKey();
         }
