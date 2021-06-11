@@ -15,6 +15,9 @@ namespace LeetCode
             Console.WriteLine(problem.IsPalindrome(6547456));
             Console.WriteLine(problem.IsPalindrome(654456));
             Console.WriteLine(problem.IsPalindrome(1000021));
+            Console.WriteLine(problem.IsPalindrome(1000021));
+            Console.WriteLine(problem.IsPalindrome(100121001));
+            Console.WriteLine(problem.IsPalindrome(100122001));
 
             Console.ReadKey();
         }
