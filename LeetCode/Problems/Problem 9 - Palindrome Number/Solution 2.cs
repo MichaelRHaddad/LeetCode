@@ -4,6 +4,11 @@ namespace LeetCode.Problems.Problem9_PalindromeNumber
 {
     partial class Problem9
     {
+        /**
+         * Accepted by LeetCode.
+         * Solves problem 9 faster then 96.6% of C# submissions.
+         * Memory usage better than 54.93% of C# subissions.
+         **/
         private bool Solution2(int x)
         {
             if (x < 0) return false;
