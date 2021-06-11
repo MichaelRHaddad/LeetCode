@@ -9,7 +9,7 @@ namespace LeetCode.Problems.Problem9_PalindromeNumber
             if (x < 0) return false;
 
             byte leadingZeros = 0;
-            while (x >= 10)
+            while (x >= 10 || leadingZeros > 0)
             {
                 // ()100121001
                 // (00)12100
