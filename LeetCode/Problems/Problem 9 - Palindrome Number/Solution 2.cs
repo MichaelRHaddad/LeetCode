@@ -10,8 +10,9 @@ namespace LeetCode.Problems.Problem9_PalindromeNumber
 
             while (x != 0)
             {
-                byte length = (byte)Math.Log10(x);
-                byte firstDigit = (byte)(x / Math.Pow(10, length));
+                byte orderOfMagnitude = (byte)Math.Log10(x);
+                int biggestWeight = (int)Math.Pow(10, orderOfMagnitude);
+                byte firstDigit = (byte)(x / biggestWeight);
                 byte lastDigit = (byte)(x % 10);
 
                 if (firstDigit != lastDigit)
@@ -19,8 +20,11 @@ namespace LeetCode.Problems.Problem9_PalindromeNumber
                     return false;
                 }
 
-                x -= firstDigit * (int)Math.Pow(10, length); // Removing first digit
-                x /= 10; // Removing last digit
+                // Removing first digit
+                x -= firstDigit * biggestWeight;
+
+                // Removing last digit
+                x /= 10;
             }
 
             return true;
