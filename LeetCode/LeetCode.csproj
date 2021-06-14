@@ -44,6 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Problems\Problem 1 - Two Sum\Solution 1.cs" />
+    <Compile Include="Problems\Problem 13 - Roman to Integer\Problem 13.cs" />
+    <Compile Include="Problems\Problem 13 - Roman to Integer\Solution 1.cs" />
     <Compile Include="Problems\Problem 7 - Reverse Integer\Solution 1.cs" />
     <Compile Include="Problems\Problem 7 - Reverse Integer\Problem 7.cs" />
     <Compile Include="Problems\Problem 1 - Two Sum\Problem1.cs" />
@@ -56,6 +58,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Problems\Problem 13 - Roman to Integer\Playground.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
