@@ -4,7 +4,7 @@
     {
         /**
          * Accepted by LeetCode.
-         * Solves problem 9 faster then 38.17% of C# submissions.
+         * Solves problem 9 faster than 38.17% of C# submissions.
          * Memory usage better than 35.49% of C# subissions.
          **/
         private bool Solution1(int x)

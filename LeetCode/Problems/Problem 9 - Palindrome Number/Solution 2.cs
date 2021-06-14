@@ -6,7 +6,7 @@ namespace LeetCode.Problems.Problem9_PalindromeNumber
     {
         /**
          * Accepted by LeetCode.
-         * Solves problem 9 faster then 96.6% of C# submissions.
+         * Solves problem 9 faster than 96.6% of C# submissions.
          * Memory usage better than 54.93% of C# subissions.
          **/
         private bool Solution2(int x)

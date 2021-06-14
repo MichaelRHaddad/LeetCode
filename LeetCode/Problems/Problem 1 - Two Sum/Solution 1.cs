@@ -7,7 +7,7 @@ namespace LeetCode.Problems.Problem1_TwoSum
     {
         /**
          * Accepted by LeetCode.
-         * Solves problem 1 faster then 93.36% of C# submissions.
+         * Solves problem 1 faster than 93.36% of C# submissions.
          * Memory usage better than 16.21% of C# subissions.
          **/
         private int[] Solution1(int[] nums, int target)
