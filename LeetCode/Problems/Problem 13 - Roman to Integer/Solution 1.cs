@@ -17,7 +17,7 @@ namespace LeetCode.Problems.Problem13_RomanToInteger
                 { 'M', 1000 }
             };
 
-            int result = s[s.Length - 1];
+            int result = map[s[s.Length - 1]];
             for (int i = s.Length - 2; i >= 0; i--)
             {
                 if(map[s[i + 1]] == map[s[i]] * 5 || map[s[i + 1]] == map[s[i]] * 10)
