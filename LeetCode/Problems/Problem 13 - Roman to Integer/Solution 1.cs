@@ -4,6 +4,11 @@ namespace LeetCode.Problems.Problem13_RomanToInteger
 {
     partial class Problem13
     {
+        /**
+         * Accepted by LeetCode.
+         * Solves problem 13 faster than 98.14% of C# submissions.
+         * Memory usage better than 38.77% of C# subissions.
+         **/
         private int Solution1(string s)
         {
             var map = new Dictionary<char, int>
