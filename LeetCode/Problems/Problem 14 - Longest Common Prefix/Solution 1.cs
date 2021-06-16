@@ -4,7 +4,17 @@
     {
         private string Solution1(string[] strs)
         {
-            throw new System.NotImplementedException();
+            while (true)
+            {
+                string prefix = string.Empty;
+                char currentChar = strs[0][0];
+                for (int i = 1; i < strs.Length; i++)
+                {   
+                    //if(strs[i])
+                }
+            }
+
+            return prefix;
         }
     }
 }
