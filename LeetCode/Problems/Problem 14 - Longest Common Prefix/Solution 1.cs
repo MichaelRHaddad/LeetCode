@@ -4,13 +4,29 @@
     {
         private string Solution1(string[] strs)
         {
-            while (true)
+            string prefix = string.Empty;
+            for (int i = 0; i < strs[0].Length; i++)
             {
-                string prefix = string.Empty;
-                char currentChar = strs[0][0];
-                for (int i = 1; i < strs.Length; i++)
-                {   
-                    //if(strs[i])
+                char currentChar = strs[0][i];
+                bool lastIteration = false;
+
+                for (int j = 1; j < strs.Length; j++)
+                {
+                    if(strs[j][i] != currentChar)
+                    {
+                        return prefix;
+                    }
+                    if(strs[j].Length == i + 1)
+                    {
+                        lastIteration = true;
+                    }
+                }
+
+                prefix += currentChar;
+
+                if(lastIteration)
+                {
+                    return prefix;
                 }
             }
 
