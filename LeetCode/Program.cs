@@ -6,18 +6,9 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            var problem = new Problems.Problem9_PalindromeNumber.Problem9();
+            var problem = new Problems.Problem14_LongestCommonPrefix.Problem14();
 
-            Console.WriteLine(problem.IsPalindrome(121));
-            Console.WriteLine(problem.IsPalindrome(-121));
-            Console.WriteLine(problem.IsPalindrome(10));
-            Console.WriteLine(problem.IsPalindrome(-101));
-            Console.WriteLine(problem.IsPalindrome(6547456));
-            Console.WriteLine(problem.IsPalindrome(654456));
-            Console.WriteLine(problem.IsPalindrome(1000021));
-            Console.WriteLine(problem.IsPalindrome(1000021));
-            Console.WriteLine(problem.IsPalindrome(100121001));
-            Console.WriteLine(problem.IsPalindrome(100122001));
+            Console.WriteLine(problem.LongestCommonPrefix(new[] { "abab", "aba", "" }));
 
             Console.ReadKey();
         }
