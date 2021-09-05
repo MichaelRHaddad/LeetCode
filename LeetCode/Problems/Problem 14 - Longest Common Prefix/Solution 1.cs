@@ -21,7 +21,10 @@
                     {
                         return prefix;
                     }
-                    if(strs[j].Length == i + 1)
+
+                    // if we reached the end of one of the strings,
+                    // then we are done.
+                    if(i + 1 == strs[j].Length)
                     {
                         lastIteration = true;
                     }
