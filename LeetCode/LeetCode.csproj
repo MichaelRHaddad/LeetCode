@@ -48,6 +48,9 @@
     <Compile Include="Problems\Problem 14 - Longest Common Prefix\Solution 1.cs" />
     <Compile Include="Problems\Problem 13 - Roman to Integer\Problem 13.cs" />
     <Compile Include="Problems\Problem 13 - Roman to Integer\Solution 1.cs" />
+    <Compile Include="Problems\Problem 2 - Add Two Numbers\Problem 2.cs" />
+    <Compile Include="Problems\Problem 2 - Add Two Numbers\Supplied code.cs" />
+    <Compile Include="Problems\Problem 2 - Add Two Numbers\Solution 1.cs" />
     <Compile Include="Problems\Problem 7 - Reverse Integer\Solution 1.cs" />
     <Compile Include="Problems\Problem 7 - Reverse Integer\Problem 7.cs" />
     <Compile Include="Problems\Problem 1 - Two Sum\Problem1.cs" />
@@ -61,6 +64,7 @@
     <None Include="App.config" />
     <None Include="Problems\Problem 14 - Longest Common Prefix\Playground.docx" />
     <None Include="Problems\Problem 13 - Roman to Integer\Playground.docx" />
+    <None Include="Problems\Problem 2 - Add Two Numbers\Playground.docx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
