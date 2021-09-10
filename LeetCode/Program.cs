@@ -1,4 +1,5 @@
 ﻿using System;
+using LeetCode.Problems.Problem2_AddTwoNumbers;
 
 namespace LeetCode
 {
@@ -6,9 +7,12 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            var problem = new Problems.Problem14_LongestCommonPrefix.Problem14();
+            var problem = new Problem2();
 
-            Console.WriteLine(problem.LongestCommonPrefix(new[] { "abab", "aba", "" }));
+            var l1 = new ListNode(2, new ListNode(4, new ListNode(3)));
+            var l2 = new ListNode(5, new ListNode(6, new ListNode(7)));
+
+            Console.WriteLine(problem.AddTwoNumbers(l1, l2));
 
             Console.ReadKey();
         }
