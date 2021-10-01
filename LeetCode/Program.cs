@@ -9,8 +9,8 @@ namespace LeetCode
         {
             var problem = new Problem2();
 
-            var l1 = new ListNode(2);
-            var l2 = new ListNode(5, new ListNode(6, new ListNode(6)));
+            var l1 = new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9))));
+            var l2 = new ListNode(9);
 
             var result = problem.AddTwoNumbers(l1, l2);
 
