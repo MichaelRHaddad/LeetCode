@@ -9,22 +9,32 @@
 
         private ListNode AddTwoNumbers(ListNode l1, ListNode l2, int carry)
         {
-            int value;
-            ListNode next;
+            // convert null to 0
+            int node1ValueAsNumber = (l1?.val) ?? 0;
+            int node2ValueAsNumber = (l2?.val) ?? 0;
 
-            if (l1.next == null)
+            int value = (node1ValueAsNumber + node2ValueAsNumber + carry) % 10;
+            int nextCarry = (node1ValueAsNumber + node2ValueAsNumber) / 10;
+
+            if (nextCarry == 0 && l1?.next == null && l2?.next == null)
+            {
+                return new ListNode(value, null);
+            }
+            else
+            {
+                return new ListNode(value, AddTwoNumbers(l1?.next, l2?.next, nextCarry));
+            }
+
+
+            /*if (l1.next == null)
             {
                 next = l2.next;
             }
             if (l2.next == null)
             {
                 next = l1.next;
-            }
+            }*/
 
-            value = (l1.val + l2.val) % 10;
-            next = AddTwoNumbers(l1.next, l2.next, (l1.val + l2.val) / 10);
-
-            return new ListNode(value, next);
         }
     }
 }
