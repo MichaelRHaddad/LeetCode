@@ -44,6 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Problems\Problem 1 - Two Sum\Solution 1.cs" />
+    <Compile Include="Problems\Problem 20 - Valid Parentheses\Problem 20.cs" />
+    <Compile Include="Problems\Problem 20 - Valid Parentheses\Solution 1.cs" />
     <Compile Include="Problems\Problem 14 - Longest Common Prefix\Problem 14.cs" />
     <Compile Include="Problems\Problem 14 - Longest Common Prefix\Solution 1.cs" />
     <Compile Include="Problems\Problem 13 - Roman to Integer\Problem 13.cs" />
@@ -62,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Problems\Problem 20 - Valid Parentheses\Playground.docx" />
     <None Include="Problems\Problem 14 - Longest Common Prefix\Playground.docx" />
     <None Include="Problems\Problem 13 - Roman to Integer\Playground.docx" />
     <None Include="Problems\Problem 2 - Add Two Numbers\Playground.docx" />
