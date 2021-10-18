@@ -1,5 +1,5 @@
 ﻿using System;
-using LeetCode.Problems.Problem2_AddTwoNumbers;
+using LeetCode.Problems.Problem20_ValidParentheses;
 
 namespace LeetCode
 {
@@ -7,12 +7,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            var problem = new Problem2();
-
-            var l1 = new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9))));
-            var l2 = new ListNode(9);
-
-            var result = problem.AddTwoNumbers(l1, l2);
+            var problem = new Problem20();
 
             Console.ReadKey();
         }

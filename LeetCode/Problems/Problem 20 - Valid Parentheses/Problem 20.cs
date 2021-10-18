@@ -2,7 +2,7 @@
 {
     partial class Problem20
     {
-        public string ValidParentheses(string s)
+        public bool ValidParentheses(string s)
         {
             return Solution1(s);
         }
